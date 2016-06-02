@@ -30,7 +30,7 @@ function login (creds, cb) {
 
   var opts = {
     url: urlLogin,
-    method: 'GET',
+    method: 'POST',
     jar: jar,
     json: true,
     qs: {
